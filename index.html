@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"  content="width=device-width, initial-scale=1.0"/>
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+      <title>Coding Quiz</title>
+
+      <link rel="stylesheet" href="./css/style.css" />
+
+    </head>
+    <body>
+        <!--  Div for scores and timer-->
+        <div class="scores"><a href="highscore.html">Highscores</a></div>
+
+        <div class="timer">Time: <span id="time">0</span></div>
+
+
+        <!-- Wrap the the entire content-->
+        <div class="wrapper">
+
+            <!-- The first look of the page -->
+            <div>
+                <h1>Coding Quiz Challenge</h1>
+                <p>Click start to answer the following questions within the time limit.Incorrect answers will penalize your score/time by ten seconds!</p>
+                <button >Start</button>
+            </div>
+
+            <!-- Questions part -->
+            <div id="questions" class="hide">
+                <h2 id="questions-title"></h2>
+                <div id="choices" class="choices"></div>
+            </div>
+
+
+            <!-- The last part -->
+            <div>
+                <h2>All done!</h2>
+                <p>Your final score is </p>
+                <p>Enter initialss:<input type="text" id="initials" max="3"/>
+                <button id="submit">Submit</button>
+                </p>
+            </div>
+
+            <!-- Feedback part-->
+            <div id="feedback" class="feedback hide"></div>
+
+        </div>
+    
+    </body>
+</html>
