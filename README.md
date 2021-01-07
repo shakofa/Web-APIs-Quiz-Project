@@ -1,7 +1,7 @@
 # Web-APIs-Quiz-Project
 
-# Descripton
- In this application HTML, CSS, and Javascript documents create a general quiz. This project emphasizes on use of Javascript and Web APIs to make and run a quiz with many questions and setting a timer to make the quiz more challenging. This application is accessible by clicking the deployed link below:
+# :page_with_curl: Descripton
+ In this application HTML, CSS, and Javascript documents create a general quiz. This project emphasizes on use of Javascript and Web APIs to make and run a quiz with many questions and setting a timer to make the quiz more challenging. This application is accessible by clicking the deployed link below :point_down::
 
 ## :link: Deployed Link:
 
@@ -28,7 +28,7 @@
 
 <img src="images/Screenshot3.png" height="300" width="300"> <img src="images/Screenshot4.png" height="300" width="300">
 
-## :open_folder: Features of the Appicaion:
+## :open_file_folder: Features of the Appicaion:
 - Two HTML Pages
    - index.html
    - highscores.html
