@@ -1,67 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport"  content="width=device-width, initial-scale=1.0"/>
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-      <title>Coding Quiz</title>
+      <title>General Quiz</title>
 
-      <link rel="stylesheet" href="./css/style.css" />
+      <link rel="stylesheet" href="./css/style.css"/>
 
     </head>
 
-
-
     <body>
         <!-- This is an empty header -->
-        <header class="header"></header>
+        <div class="header" ></div>
 
-        <br>
-
+    
         <!-- This is the image -->
         <div class="img">
-           <img src="quiz.gif" alt="" width="400px" height="200px">
+           <img src="images/quiz.gif" alt="" width="400px" height="200px">
         </div>
 
 
         <div class="scores"><a href="highscore.html"><b>View High Scores</b></a></div>
         
-        <div class="timer"><b>Time: <span id="time">0</b></span></div>
+        <div class="timer"><b>Time: <span id="time"> 0 </b></span></div>
 
 
         <!-- Wrap the the entire content-->
         <div class="wrapper">
 
             <!-- The first look of the page -->
-            <div>
-                <h1>Coding Quiz Challenge</h1>
+            <div id="start-screen" class="start">
+                <h1>General Quiz Challenge</h1>
                 <p>Click start to answer the following questions within the time limit.Incorrect answers will penalize your score/time by ten seconds!</p>
-                <button >Start</button>
+                <button id="startBtn">Start</button>
             </div>
 
             <!-- Questions part -->
             <div id="questions" class="hide">
-                <h2 id="questions-title"></h2>
+                <h2 id="question-title"></h2>
                 <div id="choices" class="choices"></div>
             </div>
 
 
             <!-- The last part -->
-            <div>
+            <div id="end-screen" class="hide">
                 <h2>All done!</h2>
-                <p>Your final score is </p>
-                <p>Enter initialss: <input type="text" id="initials" max="3"/>
-                <button id="submit">Submit</button>
+                <p>Your final score is <span id="final-score"></span> :</p>
+                <p>
+                  Enter initials: <input type="text" id="initials" max="3"/>
+                  <button id="submit">Submit</button>
                 </p>
             </div>
 
             <!-- Feedback part-->
-            <div id="feedback" class="feedback-hide"></div>
+            <div id="feedback" class="feedback hide"></div>
 
         </div>
 
-        <footer></footer>
+        <div class="footer"></div>
+
+        <script src="js/questions.js"></script>
+        <script src="js/logic.js"></script>
+        
+    
     
     </body>
 </html>
