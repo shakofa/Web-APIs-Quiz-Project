@@ -24,11 +24,11 @@
      - After all questions are answered, it asks the user's initials to show the high scores.
      
 
-<img src="images/Screenshot1.png" height="200" width="300"> <img src="images/Screenshot2.png" height="200" width="300">
+<img src="images/Screenshot1.png" height="300" width="300"> <img src="images/Screenshot2.png" height="300" width="300">
 
-<img src="images/Screenshot3.png" height="200" width="300"> <img src="images/Screenshot4.png" height="200" width="300">
+<img src="images/Screenshot3.png" height="300" width="300"> <img src="images/Screenshot4.png" height="300" width="300">
 
-## :open_fillder: Features of the Appicaion:
+## :open_folder: Features of the Appicaion:
 - Two HTML Pages
    - index.html
    - highscores.html
